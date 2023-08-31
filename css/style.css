@@ -1,0 +1,7 @@
+:root {
+--color-brend: #4D5AE5;
+}
+
+.top-line .accent {
+    color: var(--color-brend);
+}
