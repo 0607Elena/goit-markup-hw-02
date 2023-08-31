@@ -2,6 +2,6 @@
 --color-brend: #4D5AE5;
 }
 
-.top-line .accent {
+.top-line .link-logo .accent {
     color: var(--color-brend);
 }
