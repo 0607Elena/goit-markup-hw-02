@@ -4,20 +4,8 @@
 --color-background-light: #F4F4FD;
 --color-primary-dark: #2E2F42;
 --color-primary-light: #FFFFFF;
+}
 
 body {
     font-family: Roboto;
-    color:;
-    background-color: ;
-}
-
-
-
-
-
-
-}
-
-.top-line .link-logo .accent {
-    color: var(--color-brend);
 }
