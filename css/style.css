@@ -1,5 +1,19 @@
 :root {
 --color-brend: #4D5AE5;
+--color-background-dark: #2E2F42;
+--color-background-light: #F4F4FD;
+--color-primary-dark: #2E2F42;
+--color-primary-light: #FFFFFF;
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+
+
+
 }
 
 .top-line .link-logo .accent {
