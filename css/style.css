@@ -55,6 +55,13 @@ text-transform: uppercase;
  color: var(--Pressed-state)
 }
 
+.menu-navigation a:hover{
+    color: var(--Pressed-state) 
+}
+
+.menu-navigation a:focus{
+    color: var(--Pressed-state) }
+
 .contacts a {
     color: var(--Text) ;
     font-size: 16px;
@@ -65,6 +72,13 @@ text-transform: uppercase;
 .mailto a:active {
 color: var(--Pressed-state)
 }
+
+.mailto a:hover {
+    color: var(--Pressed-state)}
+
+    .mailto a:focus {
+        color: var(--Pressed-state)}
+
 
 /* section1 */
 
@@ -180,3 +194,29 @@ text-transform: capitalize;
 }
 
 /* footer */
+
+.footer-section {
+background-color: var(--dark-NAVY-BLUE)
+}
+
+.link-logo-footer {
+    color: var(--cloud, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1,16; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+
+}
+
+.link-logo-footer .accent {
+    color: var(--Primary-Brand)
+}
+.footer-text {
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.32px;
+}
