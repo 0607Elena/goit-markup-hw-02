@@ -61,13 +61,15 @@ color: var(--dark-NAVY-BLUE);
 .menu-navigation a:focus{
     color: var(--Pressed-state);
  }
-
+.contacts {
+    font-style: normal;
+}
 .contacts a {
     color: var(--Text) ;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
-    font-style: normal;
+    
 }
 .mailto a:active {
 color: var(--Pressed-state);
