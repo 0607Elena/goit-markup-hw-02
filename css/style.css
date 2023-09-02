@@ -32,7 +32,8 @@ ul {
 color: var(--Primary-Brand);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
-line-height: 1,17;
+font-weight: 700;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
@@ -45,7 +46,7 @@ color: var(--dark-NAVY-BLUE);
     color: var(--dark-NAVY-BLUE);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -64,7 +65,7 @@ color: var(--dark-NAVY-BLUE);
 .contacts a {
     color: var(--Text) ;
     font-size: 16px;
-    line-height: 1,5; 
+    line-height: 1.5; 
     letter-spacing: 0.32px;
 }
 .mailto a:active {
@@ -83,10 +84,9 @@ color: var(--Pressed-state);
 /* section1 */
 
 .hero {
-    color: var(--white, #FFF);
-text-align: center;
+color: var(--white, #FFF);
 font-size: 56px;
-line-height: 1,07; 
+line-height: 1.07; 
 letter-spacing: 1.12px;
 background: var(--navyblue, #2E2F42);
 }
@@ -97,15 +97,17 @@ background: var(--iris, #4D5AE5);
 color: var(--White-background);
 font-size: 16px;
 font-weight: 500;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;}
 
 .button :hover {
-    color: var(--Pressed-state)
+    color:#404BBF;
+
 }
-
-
+.button :focus {
+    color:#404BBF;
+}
 
 /* our advantages*/
 
@@ -122,13 +124,13 @@ cursor: pointer;}
 color:var(--dark-NAVY-BLUE);
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.4px;
 }
 
 .our-advantages-text {
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 
@@ -140,24 +142,23 @@ letter-spacing: 0.32px;
 .our-team-title {
 color:var(--dark-NAVY-BLUE);
 font-size: 36px;
-line-height: 1,11;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 
 .our-team-name {
 color:var(--dark-NAVY-BLUE);
-
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2; 
+line-height: 1.2; 
 letter-spacing: 0.4px;
 }
 
 .our-team-profession {
 
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 
@@ -166,7 +167,7 @@ letter-spacing: 0.32px;
 .our-portfolio-title{
     color:var(--dark-NAVY-BLUE);
 font-size: 36px;
-line-height: 1,11;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 
@@ -177,14 +178,14 @@ text-transform: capitalize;
 
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.4px;
 text-transform: capitalize;
 }
 
 .our-portfolio-direction {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -197,8 +198,9 @@ background-color: var(--dark-NAVY-BLUE)
 .link-logo-footer {
 color: var(--Primary-Brand);
 font-family:"Raleway", sans-serif;
+font-weight: 700;
 font-size: 18px;
-line-height: 1,16;
+line-height: 1.16;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -209,6 +211,6 @@ color: var(--cloud, #F4F4FD)
 .footer-text {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
-    line-height: 1,5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
