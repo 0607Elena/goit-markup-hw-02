@@ -85,12 +85,15 @@ color: var(--Pressed-state);
 /* section1 */
 
 .hero {
+    background: var(--navyblue, #2E2F42);
+}
+.hero-title {
 color: var(--white, #FFF);
 font-size: 56px;
 line-height: 1.07; 
 text-align: center;
 letter-spacing: 0.02em;
-background: var(--navyblue, #2E2F42);
+
 }
 
 .button {
@@ -142,8 +145,8 @@ letter-spacing: 0.32px;
     background-color: var(--Light);
 }
 
-.out-team-list {
-    background-color: #FFF;
+.our-team-list {
+    background-color: #FFFFFF;
 }
 .our-team-title {
 color:var(--dark-NAVY-BLUE);
