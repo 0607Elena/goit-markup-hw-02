@@ -51,15 +51,15 @@ color: var(--dark-NAVY-BLUE);
 }
 
 .menu-navigation a:active {
- color: var(--Pressed-state);
+ color: #404bbf;
 }
 
 .menu-navigation a:hover{
-    color: var(--Pressed-state);
+    color: #404bbf;
 }
 
 .menu-navigation a:focus{
-    color: var(--Pressed-state);
+    color:#404bbf;
  }
 .contacts {
     font-style: normal;
@@ -68,20 +68,21 @@ color: var(--dark-NAVY-BLUE);
     color: var(--Text) ;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
-    
+    letter-spacing: 0.32px; 
+
 }
-.mailto a:active {
+
+.mailto:active {
 color: var(--Pressed-state);
 }
 
-.mailto a:hover {
+.mailto:hover {
     color: var(--Pressed-state);
 }
 
-    .mailto a:focus {
-        color: var(--Pressed-state);
-    }
+.mailto:focus {
+    color: var(--Pressed-state);
+}
 
 
 /* section1 */
