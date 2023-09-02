@@ -106,11 +106,11 @@ line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;}
 
-.button :hover {
+.button:hover {
     background-color:#404BBF;
 
 }
-.button :focus {
+.button:focus {
     background-color:#404BBF;
 }
 
