@@ -139,9 +139,12 @@ letter-spacing: 0.32px;
 /* our team */
 
 .our-team {
-    background-color: var(--White-background)
+    background-color: var(--Light);
 }
 
+.out-team-list {
+    background-color: #FFF;
+}
 .our-team-title {
 color:var(--dark-NAVY-BLUE);
 font-size: 36px;
