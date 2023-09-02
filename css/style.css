@@ -33,7 +33,7 @@ ul {
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
+line-height: 1,16;
 letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
@@ -43,19 +43,27 @@ text-transform: uppercase;
 }
 
 .menu-navigation a {
+
     color: var(--dark-NAVY-BLUE);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1,5;
     letter-spacing: 0.32px;
+}
+
+.menu-navigation a:active {
+ color: var(--Pressed-state)
 }
 
 .contacts a {
     color: var(--Text) ;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 1,5; /* 150% */
     letter-spacing: 0.32px;
+}
+.mailto a:active {
+color: var(--Pressed-state)
 }
 
 /* section1 */
@@ -64,12 +72,111 @@ text-transform: uppercase;
     color: var(--white, #FFF);
 text-align: center;
 font-size: 56px;
-font-weight: 700;
-line-height: 60px; 
+line-height: 1,07; 
 letter-spacing: 1.12px;
 background: var(--navyblue, #2E2F42);
 }
 
 .button {
-    
+font-family: Roboto;
+background: var(--iris, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: var(--White-background);
+font-size: 16px;
+font-weight: 500;
+line-height: 1,5; /* 150% */
+letter-spacing: 0.64px;
+border-radius: 4px;
+cursor: pointer;}
+
+.button :hover {
+    color: var(--Pressed-state)
 }
+
+
+
+/* our advantages*/
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.our-advantages-title {
+color:var(--dark-NAVY-BLUE);
+font-size: 20px;
+font-weight: 500;
+line-height: 1,2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.our-advantages-text {
+font-size: 16px;
+line-height: 1,5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+/* our team */
+
+.our-team {background-color: var(--Light);
+}
+
+.our-team-title {
+color:var(--dark-NAVY-BLUE);
+text-align: center;
+font-size: 36px;
+line-height: 1,11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.our-team-name {
+color:var(--dark-NAVY-BLUE);
+
+font-size: 20px;
+font-weight: 500;
+line-height: 1,2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.our-team-profession {
+
+font-size: 16px;
+line-height: 1,5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+/* our portfolio */
+
+.our-portfolio-title{
+    color:var(--dark-NAVY-BLUE);
+text-align: center;
+font-size: 36px;
+line-height: 1,11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+
+}
+
+.our-portfolia-name {
+    color:var(--dark-NAVY-BLUE);
+
+font-size: 20px;
+font-weight: 500;
+line-height: 1,2; /* 120% */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+}
+
+.our-portfolio-direction {
+    font-size: 16px;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/* footer */
