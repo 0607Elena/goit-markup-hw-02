@@ -67,6 +67,7 @@ color: var(--dark-NAVY-BLUE);
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
+    font-style: normal;
 }
 .mailto a:active {
 color: var(--Pressed-state);
@@ -87,12 +88,13 @@ color: var(--Pressed-state);
 color: var(--white, #FFF);
 font-size: 56px;
 line-height: 1.07; 
-letter-spacing: 1.12px;
+text-align: center;
+letter-spacing: 0.02em;
 background: var(--navyblue, #2E2F42);
 }
 
 .button {
-font-family: Roboto;
+font-family: inherit;
 background: var(--iris, #4D5AE5);
 color: var(--White-background);
 font-size: 16px;
@@ -102,11 +104,11 @@ letter-spacing: 0.64px;
 cursor: pointer;}
 
 .button :hover {
-    color:#404BBF;
+    background-color:#404BBF;
 
 }
 .button :focus {
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
 /* our advantages*/
@@ -136,13 +138,15 @@ letter-spacing: 0.32px;
 
 /* our team */
 
-.our-team {background-color: var(--Light);
+.our-team {
+    background-color: var(--White-background)
 }
 
 .our-team-title {
 color:var(--dark-NAVY-BLUE);
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -200,7 +204,7 @@ color: var(--Primary-Brand);
 font-family:"Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
