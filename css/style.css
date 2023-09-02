@@ -17,7 +17,7 @@
 body {
     font-family: Roboto, sans-serif;
 color: var(--Text) ;
-background-color: var(--White-background)
+background-color: var(--White-background);
 }
 
 a {
@@ -29,21 +29,19 @@ ul {
 }
 
 .link-logo {
-    color: var(--dark-NAVY-BLUE);
-font-family: Raleway;
+color: var(--Primary-Brand);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
-font-weight: 700;
-line-height: 1,16;
+line-height: 1,17;
 letter-spacing: 0.54px;
 text-transform: uppercase; 
 }
 
 .link-logo .accent {
-    color: var(--Primary-Brand)
+color: var(--dark-NAVY-BLUE);
 }
 
 .menu-navigation a {
-
     color: var(--dark-NAVY-BLUE);
     font-size: 16px;
     font-weight: 500;
@@ -52,32 +50,34 @@ text-transform: uppercase;
 }
 
 .menu-navigation a:active {
- color: var(--Pressed-state)
+ color: var(--Pressed-state);
 }
 
 .menu-navigation a:hover{
-    color: var(--Pressed-state) 
+    color: var(--Pressed-state);
 }
 
 .menu-navigation a:focus{
-    color: var(--Pressed-state) }
+    color: var(--Pressed-state);
+ }
 
 .contacts a {
     color: var(--Text) ;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1,5; /* 150% */
+    line-height: 1,5; 
     letter-spacing: 0.32px;
 }
 .mailto a:active {
-color: var(--Pressed-state)
+color: var(--Pressed-state);
 }
 
 .mailto a:hover {
-    color: var(--Pressed-state)}
+    color: var(--Pressed-state);
+}
 
     .mailto a:focus {
-        color: var(--Pressed-state)}
+        color: var(--Pressed-state);
+    }
 
 
 /* section1 */
@@ -94,13 +94,11 @@ background: var(--navyblue, #2E2F42);
 .button {
 font-family: Roboto;
 background: var(--iris, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 color: var(--White-background);
 font-size: 16px;
 font-weight: 500;
-line-height: 1,5; /* 150% */
+line-height: 1,5;
 letter-spacing: 0.64px;
-border-radius: 4px;
 cursor: pointer;}
 
 .button :hover {
@@ -116,22 +114,21 @@ cursor: pointer;}
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
-    width: 1px;
+    
 }
 
 .our-advantages-title {
 color:var(--dark-NAVY-BLUE);
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2; /* 120% */
+line-height: 1,2;
 letter-spacing: 0.4px;
 }
 
 .our-advantages-text {
 font-size: 16px;
-line-height: 1,5; /* 150% */
+line-height: 1,5;
 letter-spacing: 0.32px;
 }
 
@@ -142,9 +139,8 @@ letter-spacing: 0.32px;
 
 .our-team-title {
 color:var(--dark-NAVY-BLUE);
-text-align: center;
 font-size: 36px;
-line-height: 1,11; /* 111.111% */
+line-height: 1,11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -154,14 +150,14 @@ color:var(--dark-NAVY-BLUE);
 
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2; /* 120% */
+line-height: 1,2; 
 letter-spacing: 0.4px;
 }
 
 .our-team-profession {
 
 font-size: 16px;
-line-height: 1,5; /* 150% */
+line-height: 1,5;
 letter-spacing: 0.32px;
 }
 
@@ -169,9 +165,8 @@ letter-spacing: 0.32px;
 
 .our-portfolio-title{
     color:var(--dark-NAVY-BLUE);
-text-align: center;
 font-size: 36px;
-line-height: 1,11; /* 111.111% */
+line-height: 1,11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 
@@ -182,14 +177,14 @@ text-transform: capitalize;
 
 font-size: 20px;
 font-weight: 500;
-line-height: 1,2; /* 120% */
+line-height: 1,2;
 letter-spacing: 0.4px;
 text-transform: capitalize;
 }
 
 .our-portfolio-direction {
     font-size: 16px;
-    line-height: 1,5; /* 150% */
+    line-height: 1,5;
     letter-spacing: 0.32px;
 }
 
@@ -200,23 +195,20 @@ background-color: var(--dark-NAVY-BLUE)
 }
 
 .link-logo-footer {
-    color: var(--cloud, #F4F4FD);
-font-family: Raleway;
+color: var(--Primary-Brand);
+font-family:"Raleway", sans-serif;
 font-size: 18px;
-font-weight: 700;
-line-height: 1,16; /* 116.667% */
+line-height: 1,16;
 letter-spacing: 0.54px;
 text-transform: uppercase;
-
 }
 
 .link-logo-footer .accent {
-    color: var(--Primary-Brand)
+color: var(--cloud, #F4F4FD)
 }
 .footer-text {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1,5; /* 150% */
     letter-spacing: 0.32px;
 }
