@@ -32,7 +32,7 @@ ul {
 color: var(--Primary-Brand);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
-font-weight: 700;
+
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase; 
@@ -187,7 +187,7 @@ text-transform: capitalize;
 
 }
 
-.our-portfolia-name {
+.our-portfolio-name {
     color:var(--dark-NAVY-BLUE);
 
 font-size: 20px;
