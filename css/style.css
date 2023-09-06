@@ -34,7 +34,7 @@ font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase; 
 }
 
@@ -47,7 +47,7 @@ color: var(--dark-NAVY-BLUE);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .menu-navigation a:active {
@@ -68,7 +68,7 @@ color: var(--dark-NAVY-BLUE);
     color: var(--Text) ;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.32px; 
+    letter-spacing: 0.02em; 
 
 }
 
@@ -85,7 +85,7 @@ color: var(--Pressed-state);
 }
 
 
-/* section1 */
+/* section1 hero */
 
 .hero {
     background: var(--navyblue, #2E2F42);
@@ -106,7 +106,7 @@ color: var(--White-background);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.64px;
+letter-spacing: 0.04;
 cursor: pointer;}
 
 .button:hover {
@@ -122,7 +122,7 @@ cursor: pointer;}
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    
+
     overflow: hidden;
     white-space: nowrap;
     
@@ -133,13 +133,13 @@ color:var(--dark-NAVY-BLUE);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 
 .our-advantages-text {
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 
 /* our team */
@@ -157,7 +157,7 @@ color:var(--dark-NAVY-BLUE);
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
-letter-spacing: 0.72px;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
@@ -166,14 +166,14 @@ color:var(--dark-NAVY-BLUE);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 
 .our-team-profession {
 
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 
 /* our portfolio */
@@ -182,7 +182,7 @@ letter-spacing: 0.32px;
     color:var(--dark-NAVY-BLUE);
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.72px;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 
 }
@@ -193,14 +193,14 @@ text-transform: capitalize;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
 .our-portfolio-direction {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -215,7 +215,7 @@ font-family:"Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
@@ -226,5 +226,5 @@ color: var(--cloud, #F4F4FD)
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
